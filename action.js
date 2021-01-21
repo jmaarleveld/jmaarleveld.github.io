@@ -9,7 +9,7 @@ function nextNumber() {
 }
 
 function generateRandom() {
-    return Math.floor(Math.random() * 61).toString();
+    return (1 + Math.floor(Math.random() * 59)).toString();
 }
 
 function makeText() {
