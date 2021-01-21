@@ -1,1 +1,28 @@
-"Hello world" 
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <title>Bingo!</title>
+        <link rel="stylesheet" href="styling.css">
+        <script src="action.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <section>
+                <div id="generator">
+                    <button type="button" id="action-button-1" onclick="nextNumber()">Volgende Getal</button>
+                </div>
+            </section>
+            <section>
+                <div id="number-list">
+                    <div id="filler"></div>
+                    <div id="big-number">
+                        <p id="big-num-text"> </p>
+                    </div>
+                    <div id="items">
+                        <p id="list-text"></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>
