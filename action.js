@@ -1,5 +1,4 @@
 let numbers = [];
-
 let queue = [];
 
 function initQueue() {
