@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <title>Plopje!</title>
+        <link rel="stylesheet" href="styling.css">
+        <script src="counting.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <input id="inumber">
+            <br>
+            <button id="submitter" onClick="translate_number()">Vertaal</button>
+            <div>
+                <br>
+                <br>
+                <div class="container">
+                    <label for="bshort_notation">Korte Notatie</label>
+                    <input type="checkbox" id="bshort_notation">
+                </div>
+                <br><br>
+                <div class="container">
+                    <label for="bprefix">Expliciet Voorvoegsel</label>
+                    <input type="checkbox" id="bprefix">
+                </div>
+                <br><br>
+                <div class="container">
+                    <label for="bunits">Alternatieve benaming eenheden</label>
+                    <input type="checkbox" id="bunits">
+                </div>
+                <br>
+                <p align="center">
+                    Klik <a href="plop_regels.pdf">hier</a> voor een overzicht van de regels voor vertalen.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
